@@ -5,7 +5,7 @@ import ProductDetails from "../components/ProductDetails";
 import ProductImages from "../components/ProductImage";
 import usePersistedState from "../hook/usePersistedState";
 
-export function HomeMain() {
+export default function HomeMain() {
   const product = {
     title: "Fone de Ouvido Bluetooth JBL Tune 510BT",
     price: 299.99,
